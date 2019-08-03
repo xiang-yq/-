@@ -40,3 +40,6 @@ border-color:#ff3300 #0000ff #339966 #00ff00;
 }
 ```
 只想出现一个梯形或者三角形的时候,只需要设置边框颜色为transparent;
+做圆或者圆角边框
+`border-raidus: 50%  / xxpx;`
+`transform`: rotate(xxdeg)  指定 元素的 偏移  和 旋转  和 拉伸  和  缩放 
