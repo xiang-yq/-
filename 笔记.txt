@@ -1,0 +1,27 @@
+#字体图标
+    把图标做成字体    /    自体做成图标
+fontawesome.dashgame.com 网站
+
+link网络位置
+link本地位置   需要下载图标库
+<i class="fa  fa-图标名称"></i>
+
+
+#markdown  标记语言  <马克飞象>
+markdown preview enhanced插件
+使用时标记和语言要用空格隔开
+
+
+下午讲课
+第一步  注册github  账号
+第二部  选择右上角的+号 新建仓库 存放笔记
+第三步  下载git
+
+使用方法
+如何上传笔记到 github 仓库
+右键 git bash here 黑窗口
+git init     初始化本地仓库
+git add .   添加所有文件
+git commit -m''  上传到本地仓库
+git remote add origin url  传给网站
+git push origin master   传到网络仓库

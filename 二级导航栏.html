@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .nav {
+            margin: 0 auto;
+            width: 600px;
+            height: 40px;
+            background-color: skyblue;
+        }
+
+        .nav .nav-item {
+            position: relative;
+            float: left;
+            margin-right: 10px;
+            cursor: pointer;
+
+        }
+
+        a {
+            display: block;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-bottom: 1px solid transparent;
+        }
+
+        .nav .nav-item:hover {
+            background-color: rgb(0, 255, 136);
+            font-weight:bolder ;
+            border-bottom: 1px solid red;
+        }
+        .inner{
+            /* position: absolute;
+            top: 100%;
+            left: ; */
+            display: none;
+        }
+        .inner .box .more{
+            width: 100px;
+            background-color: pink;
+        }
+        .nav .nav-item:hover .inner{
+            display: block;
+            
+        }
+        .inner .box:hover a{
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav">
+        <li class="nav-item">
+            <a href="">首页</a>
+        </li>
+        <li class="nav-item">
+            <a href="">汽车</a>
+            <ul class="inner">
+                <li class="box">
+                    <a href="" class="more">大众</a>
+                </li>
+                <li class="box">
+                    <a href="" class="more"> 奥迪</a>
+                </li>
+                <li class="box">
+                    <a href="" class="more">宝马</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a href="">手机</a>
+        </li>
+        <li class="nav-item">
+            <a href="">电脑</a>
+        </li>
+        <li class="nav-item">
+            <a href="">联系我们</a>
+        </li>
+    </ul>
+</body>
+
+</html>
